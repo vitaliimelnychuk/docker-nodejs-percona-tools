@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:9-alpine
 
 ENV PERCONA_TOOLKIT_VERSION 3.0.8
 
