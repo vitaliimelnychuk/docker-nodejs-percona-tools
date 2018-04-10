@@ -14,6 +14,3 @@ RUN set -x \
   && make install \
   && apk del make ca-certificates wget \ 
   && rm -rf /var/cache/apk/* /tmp/percona-toolkit*
-
-WORKDIR /code
-VOLUME /code
